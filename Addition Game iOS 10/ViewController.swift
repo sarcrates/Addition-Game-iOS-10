@@ -84,34 +84,34 @@ class ViewController: UIViewController {
 	func ShowTextOnButton(){
 		if RandomButton == 0{
 			
-			Answer0.setTitle("\(answer)", for: UIControlState())
-			Answer1.setTitle("\(incorrectAnswer1)", for: UIControlState())
-			Answer2.setTitle("\(incorrectAnswer2)", for: UIControlState())
-			Answer3.setTitle("\(incorrectAnswer3)", for: UIControlState())
+			Answer0.setTitle("\(answer)", for: UIControl.State())
+			Answer1.setTitle("\(incorrectAnswer1)", for: UIControl.State())
+			Answer2.setTitle("\(incorrectAnswer2)", for: UIControl.State())
+			Answer3.setTitle("\(incorrectAnswer3)", for: UIControl.State())
 			
 		}
 		if RandomButton == 1{
 			
-			Answer1.setTitle("\(answer)", for: UIControlState())
-			Answer0.setTitle("\(incorrectAnswer1)", for: UIControlState())
-			Answer2.setTitle("\(incorrectAnswer2)", for: UIControlState())
-			Answer3.setTitle("\(incorrectAnswer3)", for: UIControlState())
+			Answer1.setTitle("\(answer)", for: UIControl.State())
+			Answer0.setTitle("\(incorrectAnswer1)", for: UIControl.State())
+			Answer2.setTitle("\(incorrectAnswer2)", for: UIControl.State())
+			Answer3.setTitle("\(incorrectAnswer3)", for: UIControl.State())
 			
 		}
 		if RandomButton == 2{
 			
-			Answer2.setTitle("\(answer)", for: UIControlState())
-			Answer1.setTitle("\(incorrectAnswer3)", for: UIControlState())
-			Answer0.setTitle("\(incorrectAnswer2)", for: UIControlState())
-			Answer3.setTitle("\(incorrectAnswer1)", for: UIControlState())
+			Answer2.setTitle("\(answer)", for: UIControl.State())
+			Answer1.setTitle("\(incorrectAnswer3)", for: UIControl.State())
+			Answer0.setTitle("\(incorrectAnswer2)", for: UIControl.State())
+			Answer3.setTitle("\(incorrectAnswer1)", for: UIControl.State())
 			
 		}
 		if RandomButton == 3{
 			
-			Answer3.setTitle("\(answer)", for: UIControlState())
-			Answer1.setTitle("\(incorrectAnswer1)", for: UIControlState())
-			Answer2.setTitle("\(incorrectAnswer2)", for: UIControlState())
-			Answer0.setTitle("\(incorrectAnswer3)", for: UIControlState())
+			Answer3.setTitle("\(answer)", for: UIControl.State())
+			Answer1.setTitle("\(incorrectAnswer1)", for: UIControl.State())
+			Answer2.setTitle("\(incorrectAnswer2)", for: UIControl.State())
+			Answer0.setTitle("\(incorrectAnswer3)", for: UIControl.State())
 			
 		}
 		
